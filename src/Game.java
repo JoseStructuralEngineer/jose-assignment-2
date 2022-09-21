@@ -22,6 +22,7 @@ public class Game {
             //Check if number is between 1 and 100
             if (reply > 0 && reply < 101) {
                 numOfTries = numOfTries + 1;
+                //Note Only print Please pick a lower number or pick higher number if tries are less than 5
                 if (numOfTries < 5) {
                     diff = reply - valueToGuess;
                     if (diff > 0) {
