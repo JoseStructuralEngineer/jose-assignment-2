@@ -8,7 +8,7 @@ public class Game {
         //Generate Random Number betwen 1 and 100
         Random random = new Random();
         int valueToGuess = random.nextInt(101);
-
+        System.out.println(valueToGuess);
         boolean finishGame = false;
         int numOfTries = 0;
         int diff = 100;
@@ -17,36 +17,41 @@ public class Game {
         Scanner myObj = new Scanner(System.in);  // Create a Scanner object
         while (!finishGame) {
             //Convert to Integer
-            int reply = myObj.nextInt();
-            myObj.nextLine();
-            //Check if number is between 1 and 100
-            if (reply > 0 && reply < 101) {
-                numOfTries = numOfTries + 1;
-                //Note Only print Please pick a lower number or pick higher number if tries are less than 5
-                if (numOfTries < 5) {
+            numOfTries = numOfTries + 1;
+            if (numOfTries <= 5) {
+                int reply = myObj.nextInt();
+                myObj.nextLine();
+                //Check if number is between 1 and 100
+                if (reply > 0 && reply < 101) {
                     diff = reply - valueToGuess;
+                    //Note Only print Please pick a lower number or pick higher number if tries are less than 5
                     if (diff > 0) {
-                        System.out.println("Please pick a lower number");
+                        if (numOfTries < 5) {
+                            System.out.println("Please pick a lower number");
+                        }
                     } else if (diff < 0) {
-                        System.out.println("Please pick a higher number");
+                        if (numOfTries < 5) {
+                            System.out.println("Please pick a lower number");
+                        }
                     } else {
                         finishGame = true;
                     }
                 } else {
-                    finishGame = true;
+                    numOfTries = numOfTries - 1;
+                    System.out.println("Your guess is not between 1 and 100, please try again");
                 }
             } else {
-                System.out.println("Your guess is not between 1 and 100, please try again");
+                finishGame = true;
             }
-
         }
 
         if (diff == 0) {
             System.out.println("You win!");
         } else {
             System.out.println("You lose!");
+            System.out.println("The number to guess was: " + valueToGuess);
         }
-        System.out.println("The number to guess was: " + valueToGuess);
+
 
 
     }

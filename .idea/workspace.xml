@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="001f7326-6999-4934-942c-439c6e70cadb" name="Changes" comment="Commit content">
+    <list default="true" id="001f7326-6999-4934-942c-439c6e70cadb" name="Changes" comment="Added note &quot;Note Only print Please pick a lower number or pick higher number if tries are less than 5&quot; because for assignment even if you have had your 5 tries it still prints that the number should be higher or lower">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663740078109</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added note &quot;Note Only print Please pick a lower number or pick higher number if tries are less than 5&quot; because for assignment even if you have had your 5 tries it still prints that the number should be higher or lower">
+      <created>1663740211776</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663740211777</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit content" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit content" />
+    <MESSAGE value="Added note &quot;Note Only print Please pick a lower number or pick higher number if tries are less than 5&quot; because for assignment even if you have had your 5 tries it still prints that the number should be higher or lower" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added note &quot;Note Only print Please pick a lower number or pick higher number if tries are less than 5&quot; because for assignment even if you have had your 5 tries it still prints that the number should be higher or lower" />
   </component>
 </project>
