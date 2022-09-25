@@ -8,11 +8,9 @@ public class Game {
         //Generate Random Number betwen 1 and 100
         Random random = new Random();
         int valueToGuess = random.nextInt(101);
-        System.out.println(valueToGuess);
         boolean finishGame = false;
         int numOfTries = 0;
         int diff = 100;
-
         System.out.println("Pick a number between 1 and 100");
         Scanner myObj = new Scanner(System.in);  // Create a Scanner object
         while (!finishGame) {
