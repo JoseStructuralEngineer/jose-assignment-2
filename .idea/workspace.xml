@@ -86,7 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663740211777</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added note &quot;Note Only print Please pick a lower number or pick higher number if tries are less than 5&quot; because for assignment even if you have had your 5 tries it still prints that the number should be higher or lower">
+      <created>1664142957987</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664142957987</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added note &quot;Note Only print Please pick a lower number or pick higher number if tries are less than 5&quot; because for assignment even if you have had your 5 tries it still prints that the number should be higher or lower">
+      <created>1664143394154</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664143394154</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,5 +130,16 @@
     <MESSAGE value="Commit content" />
     <MESSAGE value="Added note &quot;Note Only print Please pick a lower number or pick higher number if tries are less than 5&quot; because for assignment even if you have had your 5 tries it still prints that the number should be higher or lower" />
     <option name="LAST_COMMIT_MESSAGE" value="Added note &quot;Note Only print Please pick a lower number or pick higher number if tries are less than 5&quot; because for assignment even if you have had your 5 tries it still prints that the number should be higher or lower" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Game.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
