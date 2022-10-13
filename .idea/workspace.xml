@@ -131,15 +131,4 @@
     <MESSAGE value="Added note &quot;Note Only print Please pick a lower number or pick higher number if tries are less than 5&quot; because for assignment even if you have had your 5 tries it still prints that the number should be higher or lower" />
     <option name="LAST_COMMIT_MESSAGE" value="Added note &quot;Note Only print Please pick a lower number or pick higher number if tries are less than 5&quot; because for assignment even if you have had your 5 tries it still prints that the number should be higher or lower" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Game.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
 </project>

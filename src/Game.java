@@ -23,7 +23,7 @@ public class Game {
                     }
                 } else if (diff < 0) {
                     if(i != 4){
-                        System.out.println("Please pick a lower number");
+                        System.out.println("Please pick a higher number");
                     }
                 } else {
                     i = 5;
