@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="001f7326-6999-4934-942c-439c6e70cadb" name="Changes" comment="Added note &quot;Note Only print Please pick a lower number or pick higher number if tries are less than 5&quot; because for assignment even if you have had your 5 tries it still prints that the number should be higher or lower">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
